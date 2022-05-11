@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    position : absolute;
+	width : 100%;
+	height : 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.content h1, label{
+    width: 45%;
+    padding-left: 20px;
+    border-left: 8px black solid;
+}
+
+.content h1{
+    font-size: 450%;
+    font-family: 'Nunito', sans-serif;
+}
+
+.content label{
+    font-size: 200%;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+.footer{
+    width: 100%;
+    height: 300px;
+    background-color: #FFE131;
+    display: flex; 
+    flex-wrap: wrap; 
+    align-content: flex-end;
+}
+
+.footer button{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 8px;
+}
+
+/*parcial*/
+
+.header{
+    display: flex;
+    align-items: flex-start;
+    margin: 30px;
+}
+
+.header img{
+    width: 130px;
+    border-radius: 6px;
+}
+
+.title h1, p{
+    text-align: start;
+    margin: 4px;
+}
+
+.points{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+}
+
+.points div{
+    width: max-content;
+    margin: 0 auto;
+}
+
+.points h4{
+    text-align: center;
+}
+
+.container-distance{
+    text-align: center;
+}
+
+.container-distance button{
+    margin-top: 100px;
+}
+
+.orange-btn{
+    background-color: #f76540;
+    border: #f76540;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+/*About-me*/
+
+.encabezado h1{
+    padding-left: 160px;
+    margin: 30px 0px;
+}
+
+.separadores{
+    display: flex;
+    justify-content: space-between;
+    color: #FFFFFF;
+    background-color: #000000;
+    padding: 0px 15px;
+}
+
+.separadores h3{
+    margin: 7px;
+}
+
+.cuerpo{
+    display: grid;  
+    grid-template-columns: 70% 265px;
+    grid-template-rows: auto;
+    margin: 0 10%;
+}
+
+.cuerpo h1{
+    font-size: 250%;
+    text-align: center;
+    padding: 15px;
+}
+
+.texto p{
+    font-size: 130%;
+    padding-right: 10px;
+}
+
+.texto img{
+    width: 300px;
+    height: 350px;
+    float: left;
+    margin: 0 20px 20px 0;
+    object-fit: cover;
+}
+
+.imagenes img{
+    flex-wrap: wrap;
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+}
+
+.imagenes h1{
+    display: inline-block;
+    width: 260px;
+}
